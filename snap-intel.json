@@ -14,7 +14,10 @@
       },
       "config": {
         "/intel/procfs": {
-          "proc_path": "/proc"
+          "proc_path": "/rootfs/proc"
+        },
+        "/intel/docker": {
+          "procfs": "/rootfs/proc"
         }
       },
       "publish": [
